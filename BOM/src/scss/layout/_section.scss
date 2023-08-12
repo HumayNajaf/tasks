@@ -1,0 +1,62 @@
+body {
+  border: 10px inset darkslategray;
+  height: 100vh;
+  main {
+    border: 10px outset rgb(66, 92, 92);
+    height: 100%;
+    section {
+      background-color: rgb(26, 128, 0);
+      background-image: url(/BOM/public/images/Dotted-Line-PNG-Transparent.png);
+      background-size: contain;
+      height: 100%;
+      .post {
+        width: 8vw;
+        height: 30vh;
+        border: 5px solid black;
+        position: fixed;
+        top: 35%;
+        background-image: repeating-linear-gradient(
+            -45deg,
+            transparent,
+            transparent 19px,
+            #000000 10px,
+            #000000 20px
+          ),
+          repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 19px,
+            #000000 10px,
+            #000000 20px
+          );
+        background-size: 30px 30px;
+      }
+      .left-post {
+        border-left: none;
+      }
+      .right-post {
+        border-right: none;
+        right: 20px;
+      }
+      .socker {
+        display: flex;
+      }
+      .person {
+        width: 6rem;
+      }
+      .ball {
+        width: 5rem;
+        cursor: pointer;
+        background: none;
+        border: none;
+        .ball-img {
+          width: 100%;
+        }
+      }
+      .active {
+        transform: translateX(750%);
+        transition: 0.5s;
+      }
+    }
+  }
+}
