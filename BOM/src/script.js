@@ -15,9 +15,8 @@ const music = document.getElementById('play')
       ballImg.style.marginLeft=`${section.clientWidth / 2 - ballImg.clientWidth/2-person.clientWidth}px`
       ballImg.style.marginTop=`${section.clientHeight / 2 - ballImg.clientHeight/2}px`
     }
-      
-    
+     
   });
 
-
-
+  console.log(1<2<3);
+  console.log(3>2>1);
