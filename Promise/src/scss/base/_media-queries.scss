@@ -1,0 +1,18 @@
+@media screen and (max-width: 710px) {
+  .card-container {
+    justify-content: center;
+  }
+  .card {
+    max-width: 42.3rem;
+    padding: 4rem 5rem 3.5rem 5rem;
+  }
+}
+
+@media screen and (max-width:991px){
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
