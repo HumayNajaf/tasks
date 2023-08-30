@@ -29,7 +29,8 @@ const cards = document.querySelectorAll(".card");
                 card.classList.remove('active')
             })
             cardEl.classList.add('active')
-        })
+        }
+        )
     });
 }
 

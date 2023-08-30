@@ -1,0 +1,44 @@
+main {
+    padding: 2rem;
+form {
+    input {
+        padding: 1rem;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+    }
+    input:hover {
+        border: 1px solid darkgray;
+    }
+    .btn {
+        border: rgb(54, 54, 197);
+        background-color: rgb(54, 54, 197);
+        cursor: pointer;
+    }
+}
+table{
+    text-align: center;
+    margin-top: 3rem;
+    border-collapse: collapse;
+    tr th, tr td {
+        padding: 1rem 7.8rem;
+        border: 1px solid black;
+    }
+    tr th {
+        font-size: 2rem;
+    }
+    tr td {
+        font-size: 1.6rem;
+    }
+    .deleteBtn {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .icon {
+        border: none;
+        text-align: left;
+    }
+}
+}
+

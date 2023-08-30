@@ -1,0 +1,16 @@
+section {
+  padding: 15px;
+}
+section th {
+  background-color: lightblue;
+  padding: 10px;
+}
+section td {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
