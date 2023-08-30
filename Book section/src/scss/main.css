@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.book-container {
+  width: 90%;
+  margin: auto;
+}
+.book-container .heading h3 {
+  font-size: 2.7rem;
+  font-weight: 400;
+  margin-bottom: 2.8rem;
+}
+.book-container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.book-container .cards .card a {
+  color: #1f2937;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.book-container .cards .card a:hover {
+  color: #fd4e26;
+}
+.book-container .cards .card .book {
+  margin-bottom: 0.8rem;
+}
+.book-container .cards .card .book img {
+  border-radius: 6px;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 576px) {
+  .book-container .cards .card {
+    width: 45%;
+  }
+}
+@media (min-width: 768px) {
+  .book-container .cards .card {
+    width: 30%;
+  }
+}
+@media (min-width: 992px) {
+  .book-container .cards .card {
+    width: 22.5%;
+  }
+}
+@media (min-width: 1200px) {
+  .book-container .cards .card {
+    width: 12%;
+  }
+}/*# sourceMappingURL=main.css.map */
