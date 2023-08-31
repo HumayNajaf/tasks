@@ -1,0 +1,49 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "img": "../public/images/Comic-Books.webp",
+      "genre": "Comic books"
+    },
+    {
+      "id": 2,
+      "img": "../public/images/Science-Fiction.webp",
+      "genre": "Science Fiction"
+    },
+    {
+      "id": 3,
+      "img": "../public/images/Literature.png",
+      "genre": "Literature"
+    },
+    {
+      "id": 4,
+      "img": "../public/images/Children-Literature.webp",
+      "genre": "Children's Literature"
+    },
+    {
+      "id": 5,
+      "img": "../public/images/Horror-Books.webp",
+      "genre": "Horror Fiction"
+    },
+    {
+      "id": 6,
+      "img": "../public/images/Novel.webp",
+      "genre": "Novels"
+    },
+    {
+      "id": 7,
+      "img": "../public/images/Romantic-Books.webp",
+      "genre": "Romantic Poetry"
+    },
+    {
+      "id": 8,
+      "img": "../public/images/Thriller.png",
+      "genre": "Thriller"
+    },
+    {
+      "id": 9,
+      "img": "../public/images/Comic-Books.webp",
+      "genre": "Comic books"
+    }
+  ]
+}

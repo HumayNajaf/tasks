@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+form {
+  padding: 2rem;
+}
+form .add {
+  padding: 1rem 10rem;
+  border-radius: 1rem;
+  border: 1px solid lightgrey;
+  text-align: center;
+}
+form .btn {
+  padding: 1rem 2rem;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

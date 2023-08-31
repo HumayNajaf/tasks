@@ -1,0 +1,16 @@
+form {
+    padding: 2rem;
+    .add {
+        padding: 1rem 10rem;
+        border-radius: 1rem;
+        border: 1px solid lightgrey;
+        text-align: center;
+    }
+    .btn {
+        padding: 1rem 2rem;
+        background-color: cornflowerblue;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+}

@@ -1,21 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 10px;
-}
-
-body {
-  font-family: "Barlow Semi Condensed", sans-serif;
-}
-
-a {
-  text-decoration: none;
-}
-
 .book-container {
   width: 90%;
   margin: auto;
@@ -27,8 +9,11 @@ a {
 }
 .book-container .cards {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
+  overflow: hidden;
+}
+.book-container .cards .card {
+  min-width: 16rem;
 }
 .book-container .cards .card a {
   color: #1f2937;
@@ -48,23 +33,56 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (min-width: 320px) {
+  .book-container .cards .card {
+    min-width: 45%;
+  }
+}
 @media (min-width: 576px) {
   .book-container .cards .card {
-    width: 45%;
+    min-width: 45%;
   }
 }
 @media (min-width: 768px) {
   .book-container .cards .card {
-    width: 30%;
+    min-width: 30%;
+  }
+}
+@media (min-width: 820px) {
+  .book-container .cards .card {
+    min-width: 31%;
   }
 }
 @media (min-width: 992px) {
   .book-container .cards .card {
-    width: 22.5%;
+    min-width: 22.6%;
   }
 }
 @media (min-width: 1200px) {
   .book-container .cards .card {
-    width: 12%;
+    min-width: 12%;
   }
+}
+@media (min-width: 1280px) {
+  .book-container .cards .card {
+    min-width: 10.5%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
