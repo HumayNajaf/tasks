@@ -13,7 +13,7 @@
     gap: 24px;
     overflow: hidden;
     .card {
-      min-width: 16rem;
+      min-width: 15.5rem;
       a {
         color: #1f2937;
         font-size: 1.6rem;
@@ -50,8 +50,12 @@
           min-width: 12%;
       }
       @media (min-width:1280px) {
-          min-width: 10.5%;
+          min-width: 10%;
       }
+      @media (min-width:1366px) {
+          min-width: 12.5%;
+      }
+      
     }
 
   }

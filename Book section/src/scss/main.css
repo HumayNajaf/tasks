@@ -13,7 +13,7 @@
   overflow: hidden;
 }
 .book-container .cards .card {
-  min-width: 16rem;
+  min-width: 15.5rem;
 }
 .book-container .cards .card a {
   color: #1f2937;
@@ -65,7 +65,12 @@
 }
 @media (min-width: 1280px) {
   .book-container .cards .card {
-    min-width: 10.5%;
+    min-width: 10%;
+  }
+}
+@media (min-width: 1366px) {
+  .book-container .cards .card {
+    min-width: 12.5%;
   }
 }
 
